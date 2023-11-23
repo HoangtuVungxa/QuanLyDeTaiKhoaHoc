@@ -15,7 +15,7 @@ namespace QuanLyDeTai
         public static SqlConnection Conn;  //Khai báo đối tượng kết nối
         public static void KetNoi()
         {
-            string source = "server = HPK01\\MAYCHU;" + "uid = tk1; pwd = 1;" + "database = QuanLyDeTaiWEB";
+            string source = "server = HPK01\\MAYCHU;" + "uid = tk1; pwd = 2;" + "database = QuanLyDeTaiWEB";
             Conn = new SqlConnection(source);   //Khởi tạo đối tượng            
             Conn.Open();                  //Mở kết nối
             //Kiểm tra kết nối

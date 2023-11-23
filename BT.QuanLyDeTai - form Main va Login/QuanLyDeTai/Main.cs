@@ -30,8 +30,8 @@ namespace QuanLyDeTai
 
         private void subMenuTaiKhoanChoDuyet_Click(object sender, EventArgs e)
         {
-            //TaiKhoanChoDuyet taiKhoanChoDuyet = new TaiKhoanChoDuyet();
-            //taiKhoanChoDuyet.ShowDialog();
+            TaiKhoanChoDuyet taiKhoanChoDuyet = new TaiKhoanChoDuyet();
+            taiKhoanChoDuyet.ShowDialog();
         }
 
         private void subMenuThayDoiTaiKhoan_Click(object sender, EventArgs e)
@@ -48,26 +48,26 @@ namespace QuanLyDeTai
 
         private void subMenuDanhMucDeTai_Click(object sender, EventArgs e)
         {
-            //DeTai deTai = new DeTai();
-            //deTai.ShowDialog();
+            DeTai deTai = new DeTai();
+            deTai.ShowDialog();
         }
 
         private void subMenuLyLichKhoaHoc_Click(object sender, EventArgs e)
         {
-            //LyLichKhoaHoc lyLichKhoaHoc = new LyLichKhoaHoc();
-            //lyLichKhoaHoc.ShowDialog();
+            LyLichKhoaHoc lyLichKhoaHoc = new LyLichKhoaHoc();
+            lyLichKhoaHoc.ShowDialog();
         }
 
         private void subMenuDanhSachTroLy_Click(object sender, EventArgs e)
         {
-            //TroLy troly = new TroLy();
-            //troly.ShowDialog();
+            TroLy troly = new TroLy();
+            troly.ShowDialog();
         }
 
         private void subMenuTaiKhoanDaDuyet_Click(object sender, EventArgs e)
         {
-            //TaiKhoanDaDuyet taiKhoanDaDuyet = new TaiKhoanDaDuyet();
-            //taiKhoanDaDuyet.ShowDialog();
+            TaiKhoanDaDuyet taiKhoanDaDuyet = new TaiKhoanDaDuyet();
+            taiKhoanDaDuyet.ShowDialog();
         }
 
         public void DisableTKD()
@@ -99,32 +99,26 @@ namespace QuanLyDeTai
 
         private void subMenuTraCuuTheoDMDT_Click(object sender, EventArgs e)
         {
-            //TraCuuDMDT traCuuDMDT = new TraCuuDMDT();
-            //traCuuDMDT.ShowDialog();
+            TraCuuDMDT traCuuDMDT = new TraCuuDMDT();
+            traCuuDMDT.ShowDialog();
         }
 
         private void subMenuBaoCao_Click(object sender, EventArgs e)
         {
-            //BaoCao baoCao = new BaoCao();
-            //baoCao.ShowDialog();
+            BaoCao baoCao = new BaoCao();
+            baoCao.ShowDialog();
         }
 
         private void subMenuDanhMucTacGia_Click(object sender, EventArgs e)
         {
-            //TacGia_DeTai tacGia_DeTai = new TacGia_DeTai();
-            //tacGia_DeTai.ShowDialog();
+            TacGia_DeTai tacGia_DeTai = new TacGia_DeTai();
+            tacGia_DeTai.ShowDialog();
         }
 
         private void subMenuDoiMatKhau_Click(object sender, EventArgs e)
         {
-            //DoiMatKhau doiMatKhau = new DoiMatKhau();
-            //doiMatKhau.ShowDialog();    
-        }
-
-        private void subMenuTraCuuTheoLLKH_Click(object sender, EventArgs e)
-        {
-            //TraCuuLLKH traCuuLLKH = new TraCuuLLKH();
-            //traCuuLLKH.ShowDialog();
+            DoiMatKhau doiMatKhau = new DoiMatKhau();
+            doiMatKhau.ShowDialog();    
         }
     }
 }
