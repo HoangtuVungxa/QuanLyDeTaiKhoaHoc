@@ -126,28 +126,28 @@
             // subMenuDanhMucDeTai
             // 
             this.subMenuDanhMucDeTai.Name = "subMenuDanhMucDeTai";
-            this.subMenuDanhMucDeTai.Size = new System.Drawing.Size(180, 22);
+            this.subMenuDanhMucDeTai.Size = new System.Drawing.Size(167, 22);
             this.subMenuDanhMucDeTai.Text = "Danh mục đề tài";
             this.subMenuDanhMucDeTai.Click += new System.EventHandler(this.subMenuDanhMucDeTai_Click);
             // 
             // subMenuLyLichKhoaHoc
             // 
             this.subMenuLyLichKhoaHoc.Name = "subMenuLyLichKhoaHoc";
-            this.subMenuLyLichKhoaHoc.Size = new System.Drawing.Size(180, 22);
+            this.subMenuLyLichKhoaHoc.Size = new System.Drawing.Size(167, 22);
             this.subMenuLyLichKhoaHoc.Text = "Lý lịch khoa học";
             this.subMenuLyLichKhoaHoc.Click += new System.EventHandler(this.subMenuLyLichKhoaHoc_Click);
             // 
             // subMenuDanhSachTroLy
             // 
             this.subMenuDanhSachTroLy.Name = "subMenuDanhSachTroLy";
-            this.subMenuDanhSachTroLy.Size = new System.Drawing.Size(180, 22);
+            this.subMenuDanhSachTroLy.Size = new System.Drawing.Size(167, 22);
             this.subMenuDanhSachTroLy.Text = "Danh sách trợ lý";
             this.subMenuDanhSachTroLy.Click += new System.EventHandler(this.subMenuDanhSachTroLy_Click);
             // 
             // subMenuDanhMucTacGia
             // 
             this.subMenuDanhMucTacGia.Name = "subMenuDanhMucTacGia";
-            this.subMenuDanhMucTacGia.Size = new System.Drawing.Size(180, 22);
+            this.subMenuDanhMucTacGia.Size = new System.Drawing.Size(167, 22);
             this.subMenuDanhMucTacGia.Text = "Danh mục tác giả";
             this.subMenuDanhMucTacGia.Click += new System.EventHandler(this.subMenuDanhMucTacGia_Click);
             // 
@@ -172,7 +172,6 @@
             this.subMenuTraCuuTheoLLKH.Name = "subMenuTraCuuTheoLLKH";
             this.subMenuTraCuuTheoLLKH.Size = new System.Drawing.Size(189, 22);
             this.subMenuTraCuuTheoLLKH.Text = "Theo lý lịch khoa học";
-            this.subMenuTraCuuTheoLLKH.Click += new System.EventHandler(this.subMenuTraCuuTheoLLKH_Click);
             // 
             // MenuGioiThieu
             // 

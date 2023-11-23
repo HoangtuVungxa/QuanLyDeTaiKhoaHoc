@@ -80,9 +80,9 @@ namespace QuanLyDeTai
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //DangKy dangKy = new DangKy();
-            //dangKy.Show();
+            this.Hide();
+            DangKy dangKy = new DangKy();
+            dangKy.Show();
         }
     }
 }
